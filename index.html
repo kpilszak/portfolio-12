@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,23 +9,27 @@
   <title>Klaudia Pilszak Portfolio</title>
   <meta charset="UTF-8" />
 </head>
+
 <body>
   <nav>
-    <img 
-    class="logo" src="images/logo.png" alt="Klaudia Pilszak Logo" />
+    <img class="logo" src="images/logo.png" alt="Klaudia Pilszak Logo" />
     <ul class="nav-bar">
-      <li><a href="">About me</a></li>
+      <li><a href="#about-me">About me</a></li>
       <li><a href="https://github.com/kpilszak">GitHub</a></li>
-      <li><a href="">Contact me</a></li>
+      <li><a href="pages/contact.html">Contact me</a></li>
     </ul>
   </nav>
-  <div class="about-me">
-    <h2 id="name">Klaudia Pilszak</h2>
-    <img class="avatar" src="images/klaudia-avatar.jpg"
-    alt="Klaudia Pilszak headshot" />
-    <div class="button">Click me</div>
+  <div class="hero">
+    <div class="hero-info">
+      <h1 id="name">Klaudia Pilszak</h1>
+      <p>I’m an engineer with a huge passion for programming. Curiosity and strong internal need to simplify and automate things led me to coding. I’m keen on new technologies. The area of my development is both backend and frontend.</p>
+      <div class="styled-break"></div>
+      <div class="button">Click me</div>
+    </div>
   </div>
   <section>
+    <h2><a name="about-me">About me</a></h2>
+    <img class="avatar" src="images/klaudia-avatar.jpg" alt="Klaudia Pilszak headshot" />
     <div class="test"></div>
     <div class="test"></div>
     <div class="test" id="main"></div>
@@ -34,9 +39,10 @@
   <footer>
     <ul>
       <li><a href="">About me</a></li>
-      <li><a href="">Contact</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
       <li><a href="https://github.com/kpilszak">GitHub</a></li>
     </ul>
   </footer>
 </body>
+
 </html>
