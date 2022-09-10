@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9141790f70.js" crossorigin="anonymous"></script>
   <title>Klaudia Pilszak Portfolio</title>
   <meta charset="UTF-8" />
 </head>
@@ -22,19 +23,65 @@
   <div class="hero">
     <div class="hero-info">
       <h1 id="name">Klaudia Pilszak</h1>
-      <p>I’m an engineer with a huge passion for programming. Curiosity and strong internal need to simplify and automate things led me to coding. I’m keen on new technologies. The area of my development is both backend and frontend.</p>
+      <p>I’m an engineer with a huge passion for programming.</p>
       <div class="styled-break"></div>
-      <div class="button">Click me</div>
+      <div class="button">Hire me</div>
+    </div>
+    <div>
+      <img class="hero-image" src="images/working-illustration.png" alt="working illustration of a woman" />
     </div>
   </div>
   <section>
-    <h2><a name="about-me">About me</a></h2>
-    <img class="avatar" src="images/klaudia-avatar.jpg" alt="Klaudia Pilszak headshot" />
-    <div class="test"></div>
-    <div class="test"></div>
-    <div class="test" id="main"></div>
-    <div class="test"></div>
-    <div class="test"></div>
+    <div class="about-me">
+      <img class="avatar" src="images/klaudia-avatar.jpg" alt="Klaudia Pilszak headshot" />
+    </div>
+    <div class="info">
+      <h2><a name="about-me">About Me</a></h2>
+      <p>Born in Poland. Living in Spain. Curiosity and strong internal need to simplify and
+        automate things led me to coding. I’m keen on new technologies. The area of my development is both backend and
+        frontend.</p>
+    </div>
+  </section>
+  <section>
+    <div class="socials">
+      <i class="far fa-user-circle"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+    </div>
+  </section>
+  <section>
+    <form>
+      <h2>Contact Me</h2>
+      <div class="input-section">
+        <div class="input-group">
+          <label for="first-name">First name:</label>
+          <input type="text" id="first-name" name="first-name" value="John"></input>
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last name:</label>
+          <input type="text" id="last-name" name="last-name" value="Doe"></input>
+        </div>
+      </div>
+      <div class="input-section">
+        <input type="radio" id="office" name="office" value="office"></input>
+        <label for="office">Office</label>
+        <input type="radio" id="remote" name="remote" value="remote"></input>
+        <label for="remote">Remote</label>
+        <input type="radio" id="other" name="other" value="other"></input>
+        <label for="other">Other</label>
+      </div>
+      <div class="input-section">
+        <input type="checkbox" id="contract" name="contract" value="contract"></input>
+        <label for="contract">Contract work</label>
+        <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+        <label for="full-time">Full-time</label>
+        <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+        <label for="sponsorship">Sponsorship</label>
+      </div>
+      <input class="button" type="submit" value="submit"></input>
+    </form>
   </section>
   <footer>
     <ul>
