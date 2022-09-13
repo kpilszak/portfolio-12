@@ -7,7 +7,7 @@
 * [Sources](#sources)
 
 ## General info
-This project is a portfolio project.  
+This project is a portfolio.    
 The main purpose of this is to show basic info and contact data.    
 	
 ## Technologies
