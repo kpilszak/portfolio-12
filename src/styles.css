@@ -48,8 +48,16 @@ p {
     font-weight: 300;
 }
 
+.hero-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .hero-text {
     margin-left: 80px;
+    margin-bottom: 200px;
 }
 
 .button {
@@ -61,4 +69,14 @@ p {
     font-size: 30px;
     font-weight: 300;
     padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
 }
