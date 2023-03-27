@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 section {
@@ -10,7 +11,6 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    height: 100vh;
     color: white;
     font-size: 40px;
 }
@@ -40,6 +40,10 @@ li {
 h1 {
     font-size: 90px;
     margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -92,4 +96,20 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
