@@ -16,10 +16,10 @@
     <nav>
       <img class="logo" src="images/logo.png" alt="Klaudia Pilszak Logo" />
 
-      <ul class="nav-bar" id="nav-list">
+      <ul>
         <li><a href="#about-me">About me</a></li>
-        <li><a href="https://github.com/kpilszak">GitHub</a></li>
-        <li><a href="pages/contact.html">Contact me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
       </ul>
 
     </nav>
@@ -28,7 +28,7 @@
       <div class="hero-text">
         <h1>Klaudia Pilszak</h1>
         <p>Software Engineer</p>
-        <div class="button">About me</div>
+        <div class="button"><a href="#about-me">About me</a></div>
       </div>
 
       <div class="socials">
@@ -53,7 +53,7 @@
     </div>
   </section>
 
-  <section class="sub-section">
+  <section class="sub-section" id="about-me">
     <div class="information">
       <h2>About Me</h2>
       <p>Hello. My name is Klaudia Pilszak. I am an engineer with a huge passion for programming.</p>
@@ -65,7 +65,38 @@
 
   </section>
 
-  <section class="sub-section">
+  <section class="sub-section-alternative" id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img class="project-image" src="images/rgb-color-game.JPG" alt="Project rgb-color-game image" />
+        <h3>Project One</h3>
+        <p class="subtext">This project is a browser rgb values guessing game.</p>
+        <hr />
+        <p class="subtext"><a class="project-link" href="https://github.com/kpilszak/rgb-color-game" target="_blank">View here</a></p>
+      </div>
+      <div class="project-card">
+        <img class="project-image" src="images/cv.JPG" alt="Project cv image" />
+        <h3>Project Two</h3>
+        <p class="subtext">This project presents my resume and contact information.</p>
+        <hr />
+        <p class="subtext"><a class="project-link" href="https://github.com/kpilszak/cv" target="_blank">View here</a></p>
+      </div>
+      <div class="project-card">
+        <img class="project-image" src="images/to-do-list.jpg" alt="Project to-do-list image" />
+        <h3>Project Three</h3>
+        <p class="subtext">This project is a browser to do list. Add tasks and cross out done.</p>
+        <hr />
+        <p class="subtext"><a class="project-link" href="https://github.com/kpilszak/to-do-list" target="_blank">View here</a></p>
+      </div>
+      <div class="project-card">
+        <img class="project-image" src="images/breakout.jpg" alt="Project breakout image" />
+        <h3>Project Four</h3>
+        <p class="subtext">This project is a breakout game application. Knock down blocks!</p>
+        <hr />
+        <p class="subtext"><a class="project-link" href="https://github.com/kpilszak/breakout" target="_blank">View here</a></p>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -101,7 +132,7 @@
     </form>
   </section>
 
-  <footer>
+  <footer id="contact-me">
     <ul>
       <li><a href="">About me</a></li>
       <li><a href="pages/contact.html">Contact</a></li>
